@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Math Homework",
+    "subject": "Mathematics",
+    "description": "Complete chapter 5 exercises on algebra",
+    "dueDate": "2026-06-10",
+    "priority": "High",
+    "status": "Completed"
+  },
+  {
+    "id": 2,
+    "title": "History Essay",
+    "subject": "History",
+    "description": "Write a 500-word essay on World War II causes",
+    "dueDate": "2026-05-27",
+    "priority": "Medium",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "title": "Science Lab Report",
+    "subject": "Science",
+    "description": "Write the lab report for the chemistry titration experiment",
+    "dueDate": "2026-06-05",
+    "priority": "High",
+    "status": "Completed"
+  },
+  {
+    "id": 4,
+    "title": "English Book Review",
+    "subject": "English",
+    "description": "One page review of To Kill a Mockingbird",
+    "dueDate": "2026-06-20",
+    "priority": "Low",
+    "status": "Pending"
+  }
+]
