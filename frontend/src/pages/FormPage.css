@@ -1,0 +1,45 @@
+/* Shared styles for Add and Edit pages */
+
+/* Breadcrumb */
+.crumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-bottom: 16px;
+}
+
+.crumb a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.crumb a:hover { text-decoration: underline; }
+
+.crumb span { color: #ccc; }
+
+/* Error banner */
+.form-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+/* White card around the form */
+.form-wrap {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 28px;
+  max-width: 620px;
+  margin-top: 12px;
+}
+
+@media (max-width: 500px) {
+  .form-wrap { padding: 18px; }
+}
